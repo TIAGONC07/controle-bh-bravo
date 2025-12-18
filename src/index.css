@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Garante fundo escuro globalmente */
+body {
+  @apply bg-slate-900 text-slate-200;
+}
